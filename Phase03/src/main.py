@@ -11,6 +11,14 @@ Ausführung:
 
 from __future__ import annotations
 
+try:
+    import tkinter  # noqa: F401
+except ModuleNotFoundError:
+    raise SystemExit(
+        "Tkinter fehlt. Unter Linux installiere z.B. 'python3-tk'. "
+        "Unter Windows/macOS Python neu installieren und Tcl/Tk mit installieren."
+    )
+
 from Phase03.src.ui_tk import run
 
 
