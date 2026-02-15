@@ -1,0 +1,3 @@
+# requirements.txt
+# Standardbibliothek reicht (tkinter, sqlite3).
+# Optional: PlantUML/Graphviz nur zum Rendern des UML-Diagramms.
