@@ -202,7 +202,7 @@ Modul "1" --> "0..*" ModulBelegung
 '''
 
 def main() -> None:
-    out_path = Path(__file__).with_name("phase3_uml_class_architecture_diagram.puml")
+    out_path = Path(__file__).with_name("uml_class_diagram_architecture_phase3.puml")
     out_path.write_text(PUML, encoding="utf-8")
     print(f"Wrote: {out_path}")
 
