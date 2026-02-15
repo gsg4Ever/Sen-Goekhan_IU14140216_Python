@@ -1,4 +1,4 @@
-# Phase03 Study-Dashboard
+# Phase3 Study-Dashboard
 # Python >= 3.10 empfohlen
 
 matplotlib>=3.8,<4.0

@@ -12,7 +12,7 @@ Inhalt:
     - Model-Schicht: Datenklassen (Entities)
 
 Hinweise:
-    Der genaue Paketpfad kann je nach Projektstruktur variieren (z. B. `Phase03/src`).
+    Der genaue Paketpfad kann je nach Projektstruktur variieren (z. B. `Phase3/src`).
     Diese Datei markiert das Verzeichnis als Python-Paket und enthält keine Laufzeitlogik.
 """
 

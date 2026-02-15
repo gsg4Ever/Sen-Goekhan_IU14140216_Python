@@ -6,7 +6,7 @@ Zweck:
     (CRUD für Modulbelegungen) und ruft dafür ausschließlich die Service-Schicht auf.
 
 Ausführung:
-    python -m Phase03.src.main
+    python -m Phase3.src.main
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ except ModuleNotFoundError as exc:
         "Unter Windows/macOS bitte Python neu installieren und Tcl/Tk mit installieren."
     ) from exc
 
-from Phase03.src.ui_tk import run
+from Phase3.src.ui_tk import run
 
 if __name__ == "__main__":
     run()

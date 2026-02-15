@@ -5,7 +5,7 @@ from __future__ import annotations
 # -----------------------------------------------------------------------------
 # Enthält:
 # - SQLiteDatabase: dünner Adapter um sqlite3.Connection (für DatabaseProtocol)
-# - connect(): öffnet DB (Default-Pfad: Phase03/docs/database/database.db)
+# - connect(): öffnet DB (Default-Pfad: Phase3/docs/database/database.db)
 # - create_schema(): legt Tabellen/Indizes an (optional reset_db für Demo/Test)
 #
 # Hinweis zur Entkopplung (Tutor-Feedback Phase 2):
@@ -21,7 +21,7 @@ Zweck:
 
 Inhalt:
     - SQLiteDatabase: Adapter um `sqlite3.Connection` passend zu `DatabaseProtocol`
-    - connect(): Öffnet die Datenbank (Default-Pfad unter `Phase03/docs/database`)
+    - connect(): Öffnet die Datenbank (Default-Pfad unter `Phase3/docs/database`)
     - create_schema(): Legt Tabellen/Indizes an (optional: Reset für Demo/Test)
 
 Hinweise:
@@ -35,7 +35,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any, Iterable, Optional, Sequence
 
-from Phase03.src.db_protocol import DatabaseProtocol
+from Phase3.src.db_protocol import DatabaseProtocol
 
 __all__ = [
     "DatabaseProtocol",
@@ -165,8 +165,8 @@ def _default_db_path() -> Path:
     Ermittelt den Standardpfad der SQLite-Datenbank.
     
     Zweck:
-        Legt die Datenbank standardmäßig unterhalb des Phase03-Projektordners an:
-        `Phase03/docs/database/database.db`.
+        Legt die Datenbank standardmäßig unterhalb des Phase3-Projektordners an:
+        `Phase3/docs/database/database.db`.
     
     Rückgabe:
         Path: Vollständiger Pfad zur Datenbankdatei.

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-# Phase03: Gesamtarchitektur-UML (PlantUML)
+# Phase3: Gesamtarchitektur-UML (PlantUML)
 # - Ziel: 1:1-Abbild der realen Klassen/Signaturen aus dem Code (UI/Service/Repo/Model/DB-Protocol)
 # - Dieses Skript schreibt die UML-Datei `uml_class_diagram_architecture_phase3.puml` neben diesem Skript.
 

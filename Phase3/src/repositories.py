@@ -15,8 +15,8 @@ from __future__ import annotations
 from datetime import date
 from typing import Any, Optional
 
-from Phase03.src.db import DatabaseProtocol
-from Phase03.src.models import Modul, ModulBelegung, Student, Studiengang
+from Phase3.src.db import DatabaseProtocol
+from Phase3.src.models import Modul, ModulBelegung, Student, Studiengang
 
 
 def _iso(d: Optional[date]) -> Optional[str]:

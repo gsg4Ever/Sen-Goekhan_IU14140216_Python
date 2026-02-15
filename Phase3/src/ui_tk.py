@@ -26,9 +26,9 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.dates as mdates
 
-from Phase03.src.models import ModulBelegung, Studiengang
-from Phase03.src.services import DashboardService
-from Phase03.src.validation import (
+from Phase3.src.models import ModulBelegung, Studiengang
+from Phase3.src.services import DashboardService
+from Phase3.src.validation import (
     ValidationError,
     parse_date,
     parse_int,

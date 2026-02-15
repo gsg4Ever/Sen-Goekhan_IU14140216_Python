@@ -35,10 +35,10 @@ from dataclasses import dataclass
 from datetime import date, timedelta
 from typing import Any, Optional
 
-from Phase03.src.db import connect, create_schema
-from Phase03.src.db_protocol import DatabaseProtocol
-from Phase03.src.models import Modul, ModulBelegung, Student, Studiengang
-from Phase03.src.repositories import (
+from Phase3.src.db import connect, create_schema
+from Phase3.src.db_protocol import DatabaseProtocol
+from Phase3.src.models import Modul, ModulBelegung, Student, Studiengang
+from Phase3.src.repositories import (
     ModulBelegungRepository,
     ModulRepository,
     StudentRepository,
