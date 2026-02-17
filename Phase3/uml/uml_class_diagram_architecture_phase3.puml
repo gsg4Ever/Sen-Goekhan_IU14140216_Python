@@ -24,7 +24,7 @@ package "Service" {
     <u>+bootstrap(db_path: str [0..1] = None, reset_db: bool = False): DashboardService</u>
     +close(): void
 
-    +ensure_demo_data(student_id: int, studiengang_id: int, sg: Studiengang): void
+    +ensure_demo_data(): (student_id: int, studiengang_id: int, sg: Studiengang)
     +update_studiengang(studiengang_id: int, sg: Studiengang): void
 
     +create_module(titel: str, ects: int, plan_semester_nr: int, default_soll_bestanden_am: date [0..1]): int
